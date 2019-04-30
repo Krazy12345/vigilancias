@@ -1,0 +1,14 @@
+C:\Users\Estagio-legua\source\repos\estagio\estagio\bin\Release\estagio.exe.config
+C:\Users\Estagio-legua\source\repos\estagio\estagio\bin\Release\estagio.exe
+C:\Users\Estagio-legua\source\repos\estagio\estagio\bin\Release\estagio.pdb
+C:\Users\Estagio-legua\source\repos\estagio\estagio\bin\Release\estagio.xml
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.Form1.resources
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.Form2.resources
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.Form3.resources
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.Form4.resources
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.Resources.resources
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.vbproj.GenerateResource.cache
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.vbproj.CoreCompileInputs.cache
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.exe
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.xml
+C:\Users\Estagio-legua\source\repos\estagio\estagio\obj\Release\estagio.pdb
