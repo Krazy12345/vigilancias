@@ -245,6 +245,102 @@ Namespace My
                 Me("save16") = value
             End Set
         End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property save17() As String
+            Get
+                Return CType(Me("save17"),String)
+            End Get
+            Set
+                Me("save17") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property save18() As String
+            Get
+                Return CType(Me("save18"),String)
+            End Get
+            Set
+                Me("save18") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property save19() As String
+            Get
+                Return CType(Me("save19"),String)
+            End Get
+            Set
+                Me("save19") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property save20() As String
+            Get
+                Return CType(Me("save20"),String)
+            End Get
+            Set
+                Me("save20") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property save21() As String
+            Get
+                Return CType(Me("save21"),String)
+            End Get
+            Set
+                Me("save21") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property save22() As String
+            Get
+                Return CType(Me("save22"),String)
+            End Get
+            Set
+                Me("save22") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property save23() As String
+            Get
+                Return CType(Me("save23"),String)
+            End Get
+            Set
+                Me("save23") = value
+            End Set
+        End Property
+        
+        <Global.System.Configuration.UserScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("")>  _
+        Public Property save24() As String
+            Get
+                Return CType(Me("save24"),String)
+            End Get
+            Set
+                Me("save24") = value
+            End Set
+        End Property
     End Class
 End Namespace
 

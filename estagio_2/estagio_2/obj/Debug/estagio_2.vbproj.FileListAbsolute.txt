@@ -31,3 +31,7 @@ C:\Users\Estagio-legua\source\vigilancias\estagio_2\estagio_2\bin\Debug\estagio_
 C:\Users\Estagio-legua\source\vigilancias\estagio_2\estagio_2\bin\Debug\estagio_2.exe
 C:\Users\Estagio-legua\source\vigilancias\estagio_2\estagio_2\bin\Debug\estagio_2.pdb
 C:\Users\Estagio-legua\source\vigilancias\estagio_2\estagio_2\bin\Debug\estagio_2.xml
+C:\Users\Estagio-legua\source\vigilancias\estagio_2\estagio_2\obj\Debug\estagio_2.Data5.resources
+C:\Users\Estagio-legua\source\vigilancias\estagio_2\estagio_2\obj\Debug\estagio_2.Disciplina3.resources
+C:\Users\Estagio-legua\source\vigilancias\estagio_2\estagio_2\obj\Debug\estagio_2.Data6.resources
+C:\Users\Estagio-legua\source\vigilancias\estagio_2\estagio_2\obj\Debug\estagio_2.VIGILANCIA.resources
