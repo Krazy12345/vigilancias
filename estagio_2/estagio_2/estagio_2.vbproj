@@ -14,6 +14,7 @@
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,7 +27,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -72,9 +72,13 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -97,24 +101,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Disciplina3.Designer.vb">
-      <DependentUpon>Disciplina3.vb</DependentUpon>
+    <Compile Include="disciplina22.Designer.vb">
+      <DependentUpon>disciplina22.vb</DependentUpon>
     </Compile>
-    <Compile Include="Disciplina3.vb">
+    <Compile Include="disciplina22.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Data5.Designer.vb">
-      <DependentUpon>Data5.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Data5.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Data6.Designer.vb">
-      <DependentUpon>Data6.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Data6.vb">
-      <SubType>Form</SubType>
-    </Compile>
+    <Compile Include="SaveData.vb" />
     <Compile Include="VIGILANCIA.Designer.vb">
       <DependentUpon>VIGILANCIA.vb</DependentUpon>
     </Compile>
@@ -128,40 +121,10 @@
       <DependentUpon>PaginaInicia.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Disciplina1.Designer.vb">
-      <DependentUpon>Disciplina1.vb</DependentUpon>
+    <Compile Include="Disciplina.Designer.vb">
+      <DependentUpon>Disciplina.vb</DependentUpon>
     </Compile>
-    <Compile Include="Disciplina1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Data1.Designer.vb">
-      <DependentUpon>Data1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Data1.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Data2.Designer.vb">
-      <DependentUpon>Data2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Data2.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Disciplina2.Designer.vb">
-      <DependentUpon>Disciplina2.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Disciplina2.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Data3.Designer.vb">
-      <DependentUpon>Data3.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Data3.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Data4.Designer.vb">
-      <DependentUpon>Data4.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Data4.vb">
+    <Compile Include="Disciplina.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -181,35 +144,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Data5.resx">
-      <DependentUpon>Data5.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Data6.resx">
-      <DependentUpon>Data6.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Disciplina3.resx">
-      <DependentUpon>Disciplina3.vb</DependentUpon>
+    <EmbeddedResource Include="disciplina22.resx">
+      <DependentUpon>disciplina22.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PaginaInicia.resx">
       <DependentUpon>PaginaInicia.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Disciplina1.resx">
-      <DependentUpon>Disciplina1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Data1.resx">
-      <DependentUpon>Data1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Data2.resx">
-      <DependentUpon>Data2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Disciplina2.resx">
-      <DependentUpon>Disciplina2.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Data3.resx">
-      <DependentUpon>Data3.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Data4.resx">
-      <DependentUpon>Data4.vb</DependentUpon>
+    <EmbeddedResource Include="Disciplina.resx">
+      <DependentUpon>Disciplina.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -222,6 +164,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="json_disciplinas.json" />
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -233,6 +176,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -247,4 +191,5 @@
     </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <ProjectExtensions />
 </Project>
