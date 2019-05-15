@@ -71,6 +71,7 @@ Partial Class VIGILANCIA
 
     Public Sub New()
 
+
         Dim saveContents As String = My.Computer.FileSystem.ReadAllText("C:\Users\Estagio-legua\source\vigilancias\estagio_2\estagio_2\json_disciplinas.json")
 
         Me.dataSave = JsonConvert.DeserializeObject(Of DisciplinaSave())(saveContents)

@@ -1,0 +1,126 @@
+[
+  {
+    "nome": "disc1",
+    "datas": [
+      {
+        "salas": [ "n1" ],
+        "data" :  "10-01-2019",
+        "hora": "h1",
+        "docentes": [
+          "nome1",
+          "nome2"
+        ],
+        "convocados": [
+          "convocado1",
+            "convocado2"
+        ]
+      },
+      {
+        "salas": [ "n2", "n3" ],
+        "data": "15-01-2019",
+        "hora": "h2",
+        "docentes": [
+          "nome3",
+          "nome4"
+        ],
+        "convocados": [
+          "convocado3",
+          "convocado4"
+        ]
+      }
+    ]
+  },
+    {
+        "datas": [
+            {
+                "convocados": [
+                    "convocado5",
+                    "convocado6"
+                ],
+                "data": "22-01-2019",
+                "docentes": [
+                    "nome5",
+                    "nome6"
+                ],
+                "hora": "h1",
+                "salas": [ "n1" ]
+            },
+            {
+                "salas": [ "n2", "n3" ],
+                "data": "01-02-2019",
+                "hora": "h2",
+                "docentes": [
+                    "nome7",
+                    "nome8"
+                ],
+                "convocados": [
+                    "convocado7",
+                    "convocado8"
+                ]
+            }
+        ],
+        "nome": "disc2"
+    },
+  {
+    "nome": "disc3",
+    "datas": [
+      {
+        "salas": [ "n1" ],
+        "data": "5-02-2019",
+        "hora": "h1",
+        "docentes": [
+          "nome9",
+          "nome10"
+        ],
+        "convocados": [
+          "convocado9",
+          "convocado10"
+        ]
+      },
+      {
+        "salas": [ "n2", "n3" ],
+        "data": "11-02-2019",
+        "hora": "h2",
+        "docentes": [
+          "nome11",
+          "nome12"
+        ],
+        "convocados": [
+          "convocado11",
+          "convocado12"
+        ]
+      }
+    ]
+  },
+  {
+    "nome": "disc4",
+    "datas": [
+      {
+        "salas": [ "n1" ],
+        "data": "15-02-2019",
+        "hora": "h1",
+        "docentes": [
+          "nome13",
+          "nome14"
+        ],
+        "convocados": [
+          "convovado13",
+            "convovado14"
+        ]
+      },
+      {
+        "salas": [ "n2", "n3" ],
+        "data": "21-02-2019",
+        "hora": "h2",
+        "docentes": [
+          "nome15",
+          "nome16"
+        ],
+        "convocados": [
+          "convocado15",
+          "convocado16"
+        ]
+      }
+    ]
+  }
+]
