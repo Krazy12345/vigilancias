@@ -101,15 +101,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="disciplina22.Designer.vb">
-      <DependentUpon>disciplina22.vb</DependentUpon>
+    <Compile Include="Disciplina.Designer.vb">
+      <DependentUpon>Disciplina.vb</DependentUpon>
     </Compile>
-    <Compile Include="disciplina22.vb" />
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Disciplina.vb">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.vb" />
-    <Compile Include="SaveData.vb" />
+    <Compile Include="DisciplinaSave.vb" />
     <Compile Include="VIGILANCIA.Designer.vb">
       <DependentUpon>VIGILANCIA.vb</DependentUpon>
     </Compile>
@@ -123,10 +121,6 @@
       <DependentUpon>PaginaInicia.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Disciplina.Designer.vb">
-      <DependentUpon>Disciplina.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Disciplina.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -144,17 +138,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="disciplina22.resx">
-      <DependentUpon>disciplina22.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="PaginaInicia.resx">
       <DependentUpon>PaginaInicia.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Disciplina.resx">
-      <DependentUpon>Disciplina.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
