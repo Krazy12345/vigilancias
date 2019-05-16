@@ -42,6 +42,8 @@ Partial Class Disciplina
         Dim tabs = New System.Windows.Forms.TabControl()
         Me.SuspendLayout()
 
+
+
         'Label1
         '
         nameLabel.AutoSize = True
@@ -81,7 +83,7 @@ Partial Class Disciplina
             Label3.AutoSize = True
             Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             tabela.Controls.Add(Label3, 3, 0)
-
+            'convocados
             Dim convocados As New ListBox
             convocados.DataSource = data.convocados
             tabela.Controls.Add(convocados, 3, 1)
@@ -91,7 +93,7 @@ Partial Class Disciplina
             Label2.AutoSize = True
             Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             tabela.Controls.Add(Label2, 2, 0)
-
+            'docentes
             Dim docentes As New ListBox
             docentes.DataSource = data.docentes
             tabela.Controls.Add(docentes, 2, 1)
@@ -101,7 +103,7 @@ Partial Class Disciplina
             Label1.AutoSize = True
             Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             tabela.Controls.Add(Label1, 1, 0)
-
+            'hora
             Dim hora As New TextBox
             hora.Text = data.hora
             tabela.Controls.Add(hora, 0, 1)
@@ -111,14 +113,74 @@ Partial Class Disciplina
             Label0.AutoSize = True
             Label0.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
             tabela.Controls.Add(Label0, 0, 0)
-
+            'salas
             Dim salas As New ListBox
             salas.DataSource = data.salas
             tabela.Controls.Add(salas, 1, 1)
 
+            'botao voltar para tras
+            Me.Button1 = New System.Windows.Forms.Button()
 
+            Me.Button1.Location = New System.Drawing.Point(520, 190)
+            Me.Button1.Name = "button1"
+            Me.Button1.Size = New System.Drawing.Size(75, 23)
+            Me.Button1.TabIndex = 2
+            Me.Button1.Text = "voltar"
+            Me.Button1.UseVisualStyleBackColor = True
+
+            Me.Controls.Add(Button1)
+
+            '
+            Me.Button2 = New System.Windows.Forms.Button()
+
+            Me.Button2.Location = New System.Drawing.Point(30, 190)
+            Me.Button2.Name = "button2"
+            Me.Button2.Size = New System.Drawing.Size(35, 23)
+            Me.Button2.TabIndex = 2
+            Me.Button2.Text = "+"
+            Me.Button2.UseVisualStyleBackColor = True
+
+            Me.Controls.Add(Button2)
+
+            '
+
+            Me.Button3 = New System.Windows.Forms.Button()
+
+            Me.Button3.Location = New System.Drawing.Point(120, 190)
+            Me.Button3.Name = "button3"
+            Me.Button3.Size = New System.Drawing.Size(100, 23)
+            Me.Button3.TabIndex = 2
+            Me.Button3.Text = "adicionar"
+            Me.Button3.UseVisualStyleBackColor = True
+
+            Me.Controls.Add(Button3)
+
+            '
+            Me.Button4 = New System.Windows.Forms.Button()
+
+            Me.button4.Location = New System.Drawing.Point(290, 190)
+            Me.Button4.Name = "button4"
+            Me.Button4.Size = New System.Drawing.Size(35, 23)
+            Me.Button4.TabIndex = 2
+            Me.Button4.Text = "+"
+            Me.Button4.UseVisualStyleBackColor = True
+
+            Me.Controls.Add(Button4)
+
+            '
+            Me.Button5 = New System.Windows.Forms.Button()
+
+            Me.button5.Location = New System.Drawing.Point(400, 190)
+            Me.Button5.Name = "button5"
+            Me.Button5.Size = New System.Drawing.Size(35, 23)
+            Me.Button5.TabIndex = 2
+            Me.Button5.Text = "+"
+            Me.Button5.UseVisualStyleBackColor = True
+
+            Me.Controls.Add(Button5)
 
         Next
+
 
         Me.Controls.Add(tabs)
 
@@ -252,7 +314,8 @@ Partial Class Disciplina
         'Me.PerformLayout()
 
     End Sub
-
+    Friend WithEvents button5 As Button
+    Friend WithEvents button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents Button1 As Button
